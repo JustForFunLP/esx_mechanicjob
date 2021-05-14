@@ -1,4 +1,5 @@
-local HasAlreadyEnteredMarker, LastZone = false, nil
+-- Test 
+local HasAlreadyEnteredMarker, LastZone = false, nil 
 local CurrentAction, CurrentActionMsg, CurrentActionData = nil, '', {}
 local CurrentlyTowedVehicle, Blips, NPCOnJob, NPCTargetTowable, NPCTargetTowableZone = nil, {}, false, nil, nil
 local NPCHasSpawnedTowable, NPCLastCancel, NPCHasBeenNextToTowable, NPCTargetDeleterZone = false, GetGameTimer() - 5 * 60000, false, false
